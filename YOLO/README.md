@@ -34,7 +34,7 @@ cd ~/NewFolder
 
    - Navigate to the converter.py script:
      ```
-     yolov8_env/lib/python3.10/site-packages/ultralytics/data/converter.py
+     yolo_env/lib/python3.10/site-packages/ultralytics/data/converter.py
      ```
 
    - Edit function `convert_dota_to_yolo_obb()`:
