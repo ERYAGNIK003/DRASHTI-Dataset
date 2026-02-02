@@ -14,7 +14,7 @@ model_paths = [
 ]
 
 original_yaml_path = 'DRASHTI-HaOBB.yaml' # Give the path of the DRASTI dataset yaml file.
-imgsz = 1280
+imgsz = 1024
 device = 0
 export_formats = '-'  # leave empty to benchmark all supported formats
 verbose = True
