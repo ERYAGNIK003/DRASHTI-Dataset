@@ -1,6 +1,6 @@
-# Benchmarking YOLOv8 Models on DRASHTI-HaOBB Dataset using Stepwell HPC (High Performance Computing) facility
+# Benchmarking YOLO11 Models on DRASHTI-HaOBB Dataset using Stepwell HPC (High Performance Computing) facility
 
-This repository provides the complete workflow for benchmarking YOLOv8 models on the **DRASHTI-HaOBB** dataset using **HPC clusters with the Slurm job scheduler**. It includes environment setup, data preparation, model training, testing, and benchmarking steps.
+This repository provides the complete workflow for benchmarking YOLO11 models on the **DRASHTI-HaOBB** dataset using **HPC clusters with the Slurm job scheduler**. It includes environment setup, data preparation, model training, testing, and benchmarking steps.
 
 ---
 
