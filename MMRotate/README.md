@@ -40,6 +40,7 @@ pip install -v -e .
 
 1. Download and unzip the **DRASHTI-HaOBB dataset** into a folder of your preference.
 2. **Modify the structure** of the dataset as follows.
+
    Change the structure from this
    ```
     DRASHTI-HaOBB/
@@ -73,7 +74,7 @@ pip install -v -e .
 
 File: `mmrotate/configs/_base_/datasets/dotav1.py`
 
-- Change the value of `data_root` to your local DRASTI dataset path.
+- Change the value of `data_root` to your local DRASHTI-HaOBB dataset path.
 - Modify the following parameters accordingly:
 ```python
 train=dict(
@@ -161,7 +162,7 @@ After training, use the following command to test the trained model:
 python tools/test.py configs/s2anet/s2anet_r50_fpn_1x_dota_le135.py work_dirs/s2anet_r50_fpn_1x_dota_le135/latest.pth --work-dir inference_s2anet --show-dir inference_s2anet/imgs --eval mAP
 ```
 
-Results will include the mean Average Precision (mAP) and class-wise metrics. This will also generate visualizations in the `inference_s2anet/imgs` directory.
+Results will include the mean Average Precision (mAP) and class-wise metrics. This will also generate visualisations in the `inference_s2anet/imgs` directory.
 
 
 ## Get Flops and Params
@@ -188,7 +189,7 @@ python getmodelsize.py
 
 ## 🔗 Acknowledgements
 
-- [DRASTI Dataset Authors](https://github.com/YourDatasetLinkIfAny)
+- [DRASHTI-HaOBB Dataset Authors](https://github.com/YourDatasetLinkIfAny)
 - [MMRotate](https://github.com/open-mmlab/mmrotate)
 
 ## Citation
