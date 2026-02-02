@@ -14,3 +14,5 @@
         ├── train_original/
         └── val_original/
         └── test_original/
+
+**For training and testing various models from different OOD ( Oriented Object Detection) frameworks (YOLO and MMRotate) on the DRASHTI-HaOBB dataset, follow the instructions given in the respective directories.**
