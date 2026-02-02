@@ -14,4 +14,3 @@ Drone nadiR-view Annotated imageS of veHicles dataseT for India (DRASHTI) - Head
         ├── train_original/
         └── val_original/
         └── test_original/
-    ```
