@@ -1,4 +1,4 @@
-path: ./DRASTI # Give Path of dataset directory where you have unzipped the dataset
+path: ./DRASHTI-HaOBB # Give the Path of the dataset directory where you have unzipped the dataset
 train: images/train # train images (relative to 'path') 
 val: images/val # val images (relative to 'path') 
 test: images/test # test images (optional) 
