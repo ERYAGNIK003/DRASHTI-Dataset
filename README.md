@@ -1,5 +1,5 @@
 # DRASHTI-HaOBB Dataset
-Drone nadiR-view Annotated imageS of veHicles dataseT for India (DRASHTI) - Heading-angle Oriented Bounding Box (HaOBB).
+**D**rone nadi**R**-view **A**nnotated image**S** of ve**H**icles datase**T** for **I**ndia (**DRASHTI**) - **H**eading-**a**ngle **O**riented **B**ounding **B**ox (**HaOBB**).
 
 **Download** the dataset from the Zenodo platform:
 
