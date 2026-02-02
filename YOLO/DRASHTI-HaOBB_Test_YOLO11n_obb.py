@@ -10,7 +10,7 @@ model = YOLO('.pt') # Give the path of weight file on which the testing is requi
 # Run validation on test set
 metrics = model.val(
     data='DRASHTI-HaOBB.yaml', # Give the path of the DRASTI dataset yaml file.
-    imgsz=1280,
+    imgsz=1024,
     project='test_project_folder', # Give the path of Folder where the testing files are stored.
     split='test',
     agnostic_nms = True,
