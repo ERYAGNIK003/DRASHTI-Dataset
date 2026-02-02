@@ -32,7 +32,7 @@ while True:
     results = model.predict(
         source=frame,
         conf=0.25,
-        imgsz=1280,
+        imgsz=1024,
         device='cuda:0',
         agnostic_nms=True,
         verbose=False
