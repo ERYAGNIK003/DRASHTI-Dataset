@@ -1,7 +1,7 @@
 
-# Benchmarking MMRotate Framework on DRASTI Dataset using NVIDIA GPUs
+# Benchmarking MMRotate Framework on DRASHTI-HaOBB Dataset using NVIDIA GPUs
 
-This repository provides the complete workflow to train and test MMRotate models using the **DRASTI** dataset on **NVIDIA
+This repository provides the complete workflow to train and test MMRotate models using the **DRASHTI-HaOBB** dataset on **NVIDIA
 Quadro RTX 6000/8000 GPU**. It includes environment setup, dataset configuration, model training, and evaluation steps.
 
 ---
@@ -38,9 +38,33 @@ pip install -v -e .
 
 ## 📁 Dataset Preparation
 
-1. Download and unzip the **DRASTI dataset** into a folder of your preference.
-2. Do **not modify the structure** of the dataset; keep it in its original form.
-
+1. Download and unzip the **DRASHTI-HaOBB dataset** into a folder of your preference.
+2. **Modify the structure** of the dataset as follows.
+   Change the structure from this
+   ```
+    DRASHTI-HaOBB/
+    ├── images/
+    │   ├── train/
+    │   └── val/
+    |   └── test/
+    └── labels/
+        ├── train_original/
+        └── val_original/
+        └── test_original/
+    ```
+   to
+   ```
+    DRASHTI-HaOBB/
+    ├── train/
+    │   ├── images/
+    │   └── labels/
+    |── val/
+    │   ├── images/
+    │   └── labels/
+    └── test/
+        ├── images/
+        └── labels/
+    ```
 ---
 
 ## ⚙️ Configuration Steps
