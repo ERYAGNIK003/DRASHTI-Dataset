@@ -9,7 +9,7 @@ model = YOLO('.pt') # Give the path of weight file on which the testing is requi
 
 # Run validation on test set
 metrics = model.val(
-    data='DRASTI.yaml', # Give the path of the DRASTI dataset yaml file.
+    data='DRASHTI-HaOBB.yaml', # Give the path of the DRASTI dataset yaml file.
     imgsz=1280,
     project='test_project_folder', # Give the path of Folder where the testing files are stored.
     split='test',
@@ -19,7 +19,7 @@ metrics = model.val(
 )
 
 # Load class names from YAML
-with open('DRASTI.yaml', 'r') as f:
+with open('DRASHTI-HaOBB.yaml', 'r') as f:
     data_yaml = yaml.safe_load(f)
 
 names = data_yaml['names']
