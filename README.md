@@ -1,2 +1,2 @@
-# DRASTI-Dataset
-Dataset of Road vehicles from nAdir-view in heterogeneouS Traffic of India (DRASTI)- Indian road traffic OBB dataset.
+# DRASHTI-HaOBB Dataset
+Drone nadiR-view Annotated imageS of veHicles dataseT for India (DRASHTI) - Heading-angle Oriented Bounding Box (HaOBB).
