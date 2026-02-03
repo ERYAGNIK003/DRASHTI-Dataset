@@ -1,7 +1,8 @@
 # DRASHTI-HaOBB Dataset
 **D**rone nadi**R**-view **A**nnotated image**S** of ve**H**icles datase**T** for **I**ndia (**DRASHTI**) - **H**eading-**a**ngle **O**riented **B**ounding **B**ox (**HaOBB**).
 
-**Download** the dataset from the Zenodo platform:
+**Download** the dataset from the Zenodo platform🔗
+The DRASHTI-HaOBB dataset is organised into six ZIP files, containing images and corresponding labels separately for the training, validation, and test splits. After downloading, the dataset must be reorganised into the format described below. Each image directory contains JPEG images, and the corresponding label directory contains annotations in a text file.
 
 **Dataset structure**
    ```
