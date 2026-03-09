@@ -189,7 +189,6 @@ python getmodelsize.py
 
 ## 🔗 Acknowledgements
 
-- [DRASHTI-HaOBB Dataset Authors](https://github.com/YourDatasetLinkIfAny)
 - [MMRotate](https://github.com/open-mmlab/mmrotate)
 
 ## Citation
