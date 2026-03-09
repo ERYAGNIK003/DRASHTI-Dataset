@@ -227,7 +227,11 @@ NewFolder/
 - Always activate the virtual environment before running scripts.
 
 ---
+## 🔗 Acknowledgements
 
+- [Ultralytics YOLOv11](https://github.com/ultralytics/ultralytics)
+- Stepwell HPC Support Team, Ahmedabad University
+  
 ## 📜 Citation
 
 If you use this pipeline or dataset in your research, please cite:
@@ -245,12 +249,3 @@ If you use this pipeline or dataset in your research, please cite:
   keywords={Annotations;Road traffic;Roads;Drones;Object detection;Road accidents;Autonomous aerial vehicles;Videos;Driver behavior;Safety;Oriented bounding box (OBB);Oriented object detection (OOD);UAV-based data collection;Nadir-view;Vehicle detection dataset},
   doi={10.1109/IEEEDATA.2026.3670752}}
 ```
-- Ultralytics YOLOv11 framework
-
----
-
-## 🔗 Acknowledgements
-
-- [Ultralytics YOLOv11](https://github.com/ultralytics/ultralytics)
-- DRASTI Dataset Authors
-- Stepwell HPC Support Team
